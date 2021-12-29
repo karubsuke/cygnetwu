@@ -53,7 +53,8 @@ getPrice()
 const avaxPrice = {
   address: "0x1ce0c2827e2ef14d5c4f29a091d735a204794041",
   chain: "bsc",
- exchange: "PancakeSwapv2"
+ exchange: "PancakeSwapv2",
+to_block: 13359177
 };
 
 
@@ -67,6 +68,7 @@ const p = await Moralis.Web3API.token.getTokenPrice(avaxPrice);
 }
 
 getP() 
+
 
 
 
